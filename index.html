@@ -93,7 +93,6 @@
             <img src="assets/img/profile-img.jpg" class="img-fluid" alt="">
           </div>
           <div class="col-lg-8 content">
-            <h2>Business Analyst</h2>
             <p class="fst-italic py-3">
               During my role at Amazon Development Center India, I collaborated with cross-functional teams to analyze operational data, streamline processes, and enhance efficiency across complex workflows. My contributions helped optimize performance in a fast-paced environment, sharpening my ability to turn raw data into strategic solutions for diverse stakeholders.
             </p>
@@ -107,7 +106,7 @@
               <div class="col-lg-6">
                 <ul>
                   <li><i class="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>MS in Business Analytics</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Master's:</strong> <span>American University</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>University:</strong> <span>American University</span></li>
                 </ul>
               </div>
             </div>
@@ -218,6 +217,173 @@
         </div><!-- End Right Column -->
     </div><!-- End Row -->
 </div><!-- End Container -->
+
+      <div class="container skills-section">
+    <div class="row">
+        <div class="col-md-6">
+            <h3 class="skills-title">Machine Learning Algorithms</h3>
+            <div class="progress">
+                <span class="skill"><span>Neural Networks</span> <i class="val">85%</i></span>
+                <div class="progress-bar-wrap">
+                    <div class="progress-bar ml-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+            </div>
+            <div class="progress">
+                <span class="skill"><span>Decision Trees</span> <i class="val">90%</i></span>
+                <div class="progress-bar-wrap">
+                    <div class="progress-bar ml-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+            </div>
+            <div class="progress">
+                <span class="skill"><span>Random Forest</span> <i class="val">88%</i></span>
+                <div class="progress-bar-wrap">
+                    <div class="progress-bar ml-bar" role="progressbar" aria-valuenow="88" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+            </div>
+            <div class="progress">
+                <span class="skill"><span>PCA</span> <i class="val">82%</i></span>
+                <div class="progress-bar-wrap">
+                    <div class="progress-bar ml-bar" role="progressbar" aria-valuenow="82" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+            </div>
+            <div class="progress">
+                <span class="skill"><span>K-Means</span> <i class="val">87%</i></span>
+                <div class="progress-bar-wrap">
+                    <div class="progress-bar ml-bar" role="progressbar" aria-valuenow="87" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+            </div>
+            <div class="progress">
+                <span class="skill"><span>NLP</span> <i class="val">83%</i></span>
+                <div class="progress-bar-wrap">
+                    <div class="progress-bar ml-bar" role="progressbar" aria-valuenow="83" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-6">
+            <h3 class="skills-title">Statistical Analysis</h3>
+            <div class="progress">
+                <span class="skill"><span>Regression</span> <i class="val">92%</i></span>
+                <div class="progress-bar-wrap">
+                    <div class="progress-bar stat-bar" role="progressbar" aria-valuenow="92" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+            </div>
+            <div class="progress">
+                <span class="skill"><span>Hypothesis Testing</span> <i class="val">88%</i></span>
+                <div class="progress-bar-wrap">
+                    <div class="progress-bar stat-bar" role="progressbar" aria-valuenow="88" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+            </div>
+            <div class="progress">
+                <span class="skill"><span>Time Series Forecasting</span> <i class="val">85%</i></span>
+                <div class="progress-bar-wrap">
+                    <div class="progress-bar stat-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+            </div>
+            <div class="progress">
+                <span class="skill"><span>Cluster Analysis</span> <i class="val">87%</i></span>
+                <div class="progress-bar-wrap">
+                    <div class="progress-bar stat-bar" role="progressbar" aria-valuenow="87" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+.skills-section {
+    padding: 40px 0;
+}
+
+.skills-title {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #333;
+    position: relative;
+}
+
+.skills-title:after {
+    content: '';
+    position: absolute;
+    width: 50px;
+    height: 3px;
+    background: #007bff;
+    bottom: -8px;
+    left: 0;
+}
+
+.progress {
+    margin-bottom: 20px;
+    background: none;
+    height: auto;
+}
+
+.skill {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8px;
+    font-size: 16px;
+    color: #444;
+}
+
+.skill span {
+    font-weight: 500;
+}
+
+.val {
+    font-style: normal;
+    color: #666;
+}
+
+.progress-bar-wrap {
+    background: #f0f0f0;
+    height: 10px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.progress-bar {
+    height: 100%;
+    transition: width 1.5s ease-in-out;
+    border-radius: 5px;
+}
+
+.ml-bar {
+    background: linear-gradient(90deg, #007bff, #00c4ff);
+}
+
+.stat-bar {
+    background: linear-gradient(90deg, #28a745, #20c997);
+}
+
+/* Animation on load */
+@keyframes fillBar {
+    from { width: 0; }
+}
+
+.progress-bar {
+    animation: fillBar 1.5s ease-in-out forwards;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .col-md-6 {
+        margin-bottom: 30px;
+    }
+}
+</style>
+
+<!-- Add this script if you're using Bootstrap and want to ensure bars load properly -->
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const bars = document.querySelectorAll('.progress-bar');
+    bars.forEach(bar => {
+        const val = bar.getAttribute('aria-valuenow');
+        bar.style.width = val + '%';
+    });
+});
+</script>
 
     </section><!-- /Skills Section -->
 
